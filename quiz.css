@@ -2,12 +2,12 @@
 
 body {
 
-  background-color: lightgrey;
+  background-color: darkblue;
 }
 
 
 body {
-  font-family: "Lato", "Helvetica", "sans-serif";
+  font-family: "Orbitron", "Helvetica", "sans-serif";
   margin: 0;
   padding: 10px;
   background-image: url("images/whitedome.png");
