@@ -3,80 +3,56 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Robo Battle Dome</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <title>Robot Battledome</title>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+  <link rel="stylesheet" type="text/css" href="quiz.css">
 </head>
 
 <body>
 
-  <article id="game-container">
+  <article>
 
-    <section id="" class="">
+    <section id="player-setup" class="card card--name">
       <div class="card__prompt">
-        <div></div>
-        <div class="field">
-          <input type="text" autofocus="true" id="" class="">
+        <div>ROBOT BATTLE DOME</div>
+      </div>
+
+<div  class="row">
+  <div class="col-xs-5">
+    <div class="input-group">
+        <input id="name1" type="text" class="form-control" placeholder="Name of Robot 1 ">
+    </div>
+   </div>
+     <div class="col-xs-2"></div>
+
+   <div class="col-xs-5">
+    <div class="input-group">
+
+           <input id="name2" type="text" class="form-control" placeholder="Name of Robot 2 ">
+
         </div>
+   </div>
+
+</div>
+
+<div class="row">
+<div class="col-xs-4">
+ <div class="input-group-btn">
+        <select id="player1"type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bot Type<span class="caret"></span>
+
+<optgroup class="drop" label="Robot Selector"></optgroup>
+          <optgroup label="type: Drone"></optgroup>
+            <option value="value1"><a href="#" class="Drone">Buzz</a></option>
+          <optgroup label="type: Bipedal"></optgroup>
+            <option value="value3"><a href="#" class="Bipedal">Kickstand</a></option>
+          <optgroup label="type: ATV"></optgroup>
+            <option value="value5"><a href="#" class="ATV">Grunt</a></option>
+
+        </select>
       </div>
-
-      <div class="card__button">
-        <a class="card__link btn btn--big btn--orange"
-           href="#"
-           next="card--class">
-          <span class="btn__prompt">></span>
-          <span class="btn__text"></span>
-        </a>
-      </div>
-    </section>
-
-    <section id="class-select" class="card card--class">
-      <div class="card__prompt">
-        <div></div>
-        <div>
-          <a class="card__back btn btn--small"
-             href="#"
-             previous="card--name">
-            <span class="btn__prompt">&lt;</span>
-            <span class="btn__text">Back</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card__button">
-              <a class="class__link btn btn--big btn--blue" href="#">
-                <span class="btn__prompt"></span>
-                <span class="btn__text">Drone</span>
-              </a>
-            </div>
-
-            <div class="card__button">
-              <a class="class__link btn btn--big btn--blue" href="#">
-                <span class="btn__prompt"></span>
-                <span class="btn__text">Bipedal</span>
-              </a>
-            </div>
-
-            <div class="card__button">
-              <a class="class__link btn btn--big btn--blue" href="#">
-                <span class="btn__prompt"></span>
-                <span class="btn__text">ATV</span>
-              </a>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-
-    <section id="" class=""></section>
-
-  </article>
+    </div>
+  <div class="col-xs-3"></div>
 
   <script src="quiz.js"></script>
 
